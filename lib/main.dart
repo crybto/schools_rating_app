@@ -1,6 +1,7 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:schools/screens/firstPage.dart';
 import './cloudFirebaseSearch.dart';
 
 void main() async {
@@ -9,7 +10,7 @@ void main() async {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CloudFirestoreSearch(),
+      home: ScreenOne(),
     ),
   );
 }
